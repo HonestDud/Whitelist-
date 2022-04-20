@@ -1,0 +1,12 @@
+//create our whitelist dapp folder for the a hardhat project
+
+mkdir Whitelist-dapp
+cd Whitelist-dapp
+npm init --yes
+npm install --save-dev hardhat
+
+npx hardhat
+
+//for non-mac users
+npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-theres ethers
+
